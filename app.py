@@ -1,8 +1,6 @@
 from flask_cors import CORS
 from flask import Flask, jsonify, make_response, send_from_directory
 import MySQLdb
-#import os
-#import json
 
 
 app = Flask(__name__, static_url_path='/')
